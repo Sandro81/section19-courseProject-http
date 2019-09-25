@@ -17,4 +17,9 @@ export class DataStorageService {
       });
   }
 
+  fetchRecipes() {
+    this.http.get(
+      'https://section19-e6779.firebaseio.com/recipes.json')
+      .subscribe(recipes =)
+  }
 }
