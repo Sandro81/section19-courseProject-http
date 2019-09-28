@@ -16,11 +16,13 @@ const appRoutes: Routes = [
       {
         path: ':id',
         component: RecipeDetailComponent,
-        resolve: [RecipesResolverService]},
+        resolve: [RecipesResolverService]
+      },
       {
         path: ':id/edit',
         component: RecipeEditComponent,
-        resolve: [RecipesResolverService]}
+        resolve: [RecipesResolverService]
+      }
     ] },
   { path: 'shopping-list', component: ShoppingListComponent },
 ];
